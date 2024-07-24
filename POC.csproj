@@ -8,6 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="broken.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="broken.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Sep" Version="0.5.3" />
   </ItemGroup>
 
