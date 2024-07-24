@@ -9,10 +9,14 @@
 
   <ItemGroup>
     <None Remove="broken.csv" />
+    <None Remove="valid.csv" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="broken.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="valid.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
